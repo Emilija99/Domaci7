@@ -1,0 +1,12 @@
+<div class="{{ prozirnost }}" class="kontejner">
+  <app-proizvod
+    *ngFor="let proizvod of proizvodi | async"
+    [proizvod]="proizvod"
+    (onClickStaviUKorpu)="dodajProizvod($event)"
+  ></app-proizvod>
+</div>
+
+<app-korpa
+  (onClickIzbaciProizvod)="izbaciProizvod($event)"
+  (promeniProzirnost)="promeniProzirnost()"
+></app-korpa>

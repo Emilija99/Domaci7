@@ -1,0 +1,54 @@
+{
+    "proizvodi": [
+    {
+    "id":1,
+    "naziv":"Bicikla",
+    "cena":10799,
+    "kolicina":11,
+    "slika":"https://cremecycles.com/images/glowne/12.jpg"
+    
+  },
+  {
+    "id":2,
+    "naziv":"Lampa",
+    "cena":3999,
+    "kolicina":20,
+    "slika":"https://homedepot.scene7.com/is/image/homedepotcanada/p_1001030305.jpg?wid=1000&hei=1000&op_sharpen=1"
+    
+  },
+  
+   { 
+       "id":3,
+      "naziv":"Stolica",
+      "cena":4499,
+      "kolicina":7,
+      "slika":"https://www.capitaldiningchairs.co.uk/wp-content/uploads/2019/08/URB-111-YE_CO2-scaled.jpg"
+      
+    },
+    { 
+      "id":4,
+      "naziv":"Kofer",
+      "cena":6700,
+      "kolicina":9,
+      "slika":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD_NIKwMqv9lZaUAwhTNrGjI4LJGSto0Z0uw&usqp=CAU"
+      
+    },
+    { 
+      "id":5,
+      "naziv":"Sto",
+      "cena":6899,
+      "kolicina":11,
+      "slika":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY8tZFYuyyWc7XGezQIoBKhYfYvH070R8_vw&usqp=CAU"
+      
+    },
+    { "id":6,
+      "naziv":"Suncobran",
+      "cena":3000,
+      "kolicina":6,
+      "slika":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qKBBKhZ5MhGWbj0Z1TN1Ead91_E5NyqTXQ&usqp=CAU"
+      
+    }
+
+
+]
+}

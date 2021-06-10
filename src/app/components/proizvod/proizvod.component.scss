@@ -1,0 +1,43 @@
+:host{
+    width:200px;
+    border:1px solid black;
+    margin:20px;
+    display:block;
+    padding:10px;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+   
+}
+
+img{
+   max-width:90%;
+  
+   
+}
+h2,h3,button{
+    text-align: center;
+    margin:10px;
+}
+
+ .bottom{
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .btnDodaj{
+     background-color: #0275d8;
+     color:white;
+     border:none;
+     border-radius: 5px;
+     height:25px;
+     
+
+ }
+ .btnDodaj:hover{
+     cursor: pointer;
+     background-color: lighten(#0275d8,10%);
+ }

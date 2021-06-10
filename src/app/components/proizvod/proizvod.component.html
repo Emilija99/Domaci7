@@ -1,0 +1,7 @@
+<h2 *ngIf="proizvod">{{ proizvod.naziv }}</h2>
+<img *ngIf="proizvod" src="{{ proizvod.slika }}" />
+<div *ngIf="proizvod" class="bottom">
+  <h3>Cena: {{ proizvod.cena }} din</h3>
+  <h3>Količina: {{ proizvod.kolicina }}</h3>
+  <button (click)="staviUKorpu()" class="btnDodaj">Dodaj u korpu</button>
+</div>

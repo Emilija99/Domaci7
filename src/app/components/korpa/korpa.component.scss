@@ -1,0 +1,130 @@
+.korpa{
+   
+    font-size: 270px;
+   color:#DC143C;
+   text-shadow: 2px 2px black;
+}
+
+.btnKorpa{
+    position: relative;
+    bottom: 200px;
+    left:76px;
+    background-color:green;
+    display: inline;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+
+    
+   
+   
+}
+
+.btnKorpa:hover{
+    cursor: pointer;
+    background-color:  lighten(green, 5%);;
+}
+
+
+
+.labela:hover{
+    cursor: pointer;
+}
+
+.skrivena{
+    display: none;
+}
+
+.vidljiva{
+    display: block;
+}
+
+
+
+.prozor{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top:0;
+    bottom: 0;
+   margin:auto;
+    width: 700px;
+    height:500px;
+    border:1px solid black;
+    text-align:end;
+    padding:0px;
+    opacity:1;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+   
+    background-color:white;
+    overflow: auto;
+   
+}
+
+.prozor .windowClose{
+    margin:0px;
+    padding: 0px !important;
+    color:red;
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+   
+  
+   
+   
+    
+    
+
+
+
+}
+
+.prozor fa-icon:hover{
+    cursor: pointer;
+    color:lighten(red, 20%);
+}
+
+.tblProizvodi{
+    border-collapse: collapse;
+    border:1px solid grey;
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+    
+    max-height: 600px;
+    
+    overflow: auto;
+   
+}
+
+.tblProizvodi thead {
+    background-color: #292b2c;
+    color: #ffffff;
+    height: 70px;
+   
+}
+.tblProizvodi thead th{
+   
+    padding: 5px;
+    height: 30px;
+}
+
+.tblProizvodi tr{
+    height:50px;
+}
+
+
+
+.tblProizvodi img{
+    width: 50px;
+    height:30px;
+}
+
+.prozor .racun{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin:15px;
+}
